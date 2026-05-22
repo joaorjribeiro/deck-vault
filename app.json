@@ -1,30 +1,22 @@
 {
   "expo": {
-    "name": "vault-deck",
+    "name": "Vault Deck",
     "slug": "vault-deck",
     "version": "1.0.0",
     "orientation": "portrait",
+    "scheme": "vaultdeck",
+    "userInterfaceStyle": "dark",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "newArchEnabled": true,
-    "splash": {
-      "image": "./assets/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "ios": {
-      "supportsTablet": true
-    },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#0F0F0F"
       },
-      "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "package": "com.vaultdeck.app"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
     }
   }
 }
