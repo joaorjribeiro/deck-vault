@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Vault Deck",
-    "slug": "vault-deck",
+    "name": "Deck Vault",
+    "slug": "deck-vault",
     "version": "1.0.0",
     "orientation": "portrait",
     "scheme": "vaultdeck",

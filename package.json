@@ -1,5 +1,5 @@
 {
-  "name": "vault-deck",
+  "name": "deck-vault",
   "version": "1.0.0",
   "main": "expo-router/entry",
   "scripts": {

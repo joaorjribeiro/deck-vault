@@ -192,7 +192,7 @@ export default function Home() {
         {/* HEADER */}
         <View style={styles.header}>
           <View>
-            <Text style={styles.title}>Vault Deck</Text>
+            <Text style={styles.title}>Deck Vault</Text>
             <Text style={styles.subtitle}>
               Sua coleção de decks competitivos
             </Text>
