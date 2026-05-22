@@ -1,30 +1,17 @@
 export const COLORS = {
   primary: "#FF004D",
-
   background: "#120B14",
-
   surface: "#1A1020",
-
   card: "#241229",
-
   cardLight: "#34163D",
-
   cardBorder: "#FF004D",
-
   text: "#FFF4E0",
-
   subtext: "#D1B892",
-
   gold: "#FFC857",
-
   danger: "#FF3D5A",
-
   success: "#32D583",
-
   overlay: "rgba(0,0,0,0.72)",
-
   neon: "#FF004D",
-
   tier: {
     S: "#FFC857",
     A: "#FF5A5F",
