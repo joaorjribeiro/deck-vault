@@ -19,9 +19,17 @@
       },
       "package": "com.deckvault.app"
     },
-    "plugins": ["expo-router"],
+    "plugins": [
+      "expo-router"
+    ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "4b187da9-2515-4f7d-b872-2acc3782a8c7"
+      }
     }
   }
 }
