@@ -101,7 +101,7 @@ export default function Register() {
       behavior={Platform.OS === "ios" ? "padding" : undefined}
     >
       <View style={styles.card}>
-        <Text style={styles.logo}>🃏 Vault Deck</Text>
+        <Text style={styles.logo}>🃏 Deck Vault</Text>
 
         <Text style={styles.sub}>Crie sua conta e organize seus decks.</Text>
 

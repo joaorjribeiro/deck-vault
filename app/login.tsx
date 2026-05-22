@@ -12,6 +12,7 @@ import { auth } from "@/lib/firebase";
 import { router } from "expo-router";
 import { COLORS } from "@/constants/theme";
 
+
 export default function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -33,7 +34,7 @@ export default function Login() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.logo}>🃏 Vault Deck</Text>
+      <Text style={styles.logo}>🃏 Deck Vault</Text>
       <Text style={styles.sub}>Seus decks, organizados.</Text>
 
       <TextInput

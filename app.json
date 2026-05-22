@@ -4,15 +4,20 @@
     "slug": "deck-vault",
     "version": "1.0.0",
     "orientation": "portrait",
-    "scheme": "vaultdeck",
+    "scheme": "deckvault",
     "userInterfaceStyle": "dark",
     "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#120B14"
+    },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#0F0F0F"
+        "backgroundColor": "#120B14"
       },
-      "package": "com.vaultdeck.app"
+      "package": "com.deckvault.app"
     },
     "plugins": ["expo-router"],
     "experiments": {
